@@ -20,11 +20,7 @@ def main():
 
     # output
     print("")
-    print(
-        "The HST is ${0:,.2f}, and the total cost is: ${1:,.2f}".format(
-            tax, total
-        )
-    )
+    print("The HST is ${0:,.2f}, and the total cost is: ${1:,.2f}".format(tax, total))
     print("")
     print("Done.")
 
